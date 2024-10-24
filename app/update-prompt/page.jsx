@@ -49,7 +49,7 @@ const UpdatePrompt = () => {
     }
   };
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div>Loading now...</div>}>
       <Form
         type="Update"
         post={post}
